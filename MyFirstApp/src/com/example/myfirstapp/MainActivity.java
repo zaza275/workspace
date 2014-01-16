@@ -47,7 +47,19 @@ public class MainActivity extends Activity
 		}
 	}
 
-	/** Called when the user clicks the Send button */
+	private void openSettings()
+    {
+        // TODO Auto-generated method stub
+        
+    }
+
+    private void openSearch()
+    {
+        // TODO Auto-generated method stub
+        
+    }
+
+    /** Called when the user clicks the Send button */
 	public void sendMessage(View view)
 	{
 		Intent intent = new Intent(this, DisplayMessageActivity.class);
